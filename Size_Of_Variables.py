@@ -4,6 +4,7 @@ print(sys.getsizeof(x))
 print(type(x))
 
 y = 10
+
 print(type(y))
 print(sys.getsizeof(y))
 

@@ -4,11 +4,12 @@ print(x)
 print(y)
 
 print("Printing Numbers In X")
-for a in x:
-    print('hello %s' %a)
+
 
 print("Printing Numbers In Y")
 
 for a in range(0, 5):
     for b in y:
+        print('hello %s' %a)
+    for a in x:
         print('hello nikhil%s' %b)
