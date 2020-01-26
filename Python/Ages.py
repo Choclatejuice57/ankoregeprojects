@@ -19,5 +19,3 @@ elif age > 21:
     print('Why aren\'t you mowing a lawn or sorting papers?')
 elif age > 10:
     print('now double digits!')
-else:
-    print('WHAT')
