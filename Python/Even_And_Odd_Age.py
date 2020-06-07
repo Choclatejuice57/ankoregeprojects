@@ -1,5 +1,10 @@
 age = int(input("Enter Age"))
+
 if (age % 2) == 0:
-    print("Age is even")
+    start = 0
 else:
-    print("Age is odd")
+    start = 1
+
+while start <= age:
+    print(start)
+    start = start + 2
